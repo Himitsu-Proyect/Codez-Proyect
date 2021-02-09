@@ -21,7 +21,7 @@ async def main():
     async for dialog in bot.iter_dialogs():
         print(dialog.name, 'has ID', dialog.id)
 
-    await bot.send_message(me.id, 'Hola')
+    await bot.send_message(me.id, 'Que tal?')
 
     # You can print the message history of any chat:
    # async for message in bot.iter_messages('me'):
